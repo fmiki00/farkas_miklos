@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "55e30d56-0223-4224-b1d4-e572603fc470",
+		"name": "kozut",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48359844",
+		"_collection_link": "https://fmmikii-8347022.postman.co/workspace/Farkas-Miklos's-Workspace~069eeb3a-063a-4b6f-8125-f9e9bf88beb8/collection/48359844-55e30d56-0223-4224-b1d4-e572603fc470?action=share&source=collection_link&creator=48359844"
+	},
+	"item": [
+		{
+			"name": "regiok",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "regio_tipus",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "regio_nev",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "regio_szam",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
