@@ -3,19 +3,24 @@ const app = express();
 const cors = require("cors");
 const mysql = require("mysql");
 const bodyParser = require('body-parser');
+require('dotenv').config();
+//const { db } = require('./db');
+//const mysql = require('mysql2');
+
 app.use(bodyParser.json());
-
-
-app.use(cors());                    
+app.use(cors());   
+            
 
 // Adatbázis kapcsolat létrehozása
+/*
 const db = mysql.createConnection({
-    user: "root",
-    host: "127.0.0.1",
-    port: 3307,
-    password: "",
-    database: "kozutak",
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    port: Number(process.env.DB_PORT),
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
 }); 
+*/
 
 // Gyökér útvonal, tesztelésre
 app.get("/", (req, res) => {
