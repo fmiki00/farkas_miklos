@@ -1,0 +1,23 @@
+--sajatom--
+const express = require("express"); /* segit a szervert epiteni */
+--copilot leirasa--
+const express = require("express"); // Az Express modul importálása, amely segít a szerver létrehozásában
+
+--copilot segedlete--
+
+app.get("/kihasznaltsag", (req, res) => {
+    const sql = "SELECT szobak.sznev AS szoba, COUNT(foglalasok.vendeg) AS vendegek, SUM(DATEDIFF(foglalasok.tav, foglalasok.erk)) AS vendeg_ejszakak FROM foglalasok INNER JOIN szobak ON foglalasok.szoba = szobak.szazon GROUP BY szobak.sznev ORDER BY vendeg_ejszakak DESC, vendegek ASC;";
+    db.query(sql, (err, result) => {
+        if (err) return res.json(err);
+        return res.json(result)
+    })
+});
+
+ennel az egynel segitett az ai mivel mar elfelejtettem az inner joint viszont ezzel sikeresen megoldotam
+
+--sajatom--
+const mysql = require("mysql"); /* adatbazis kapcsolodas */
+--copilot leirasa--
+const express = require("express"); // A MySQL modul importálása, amely lehetővé teszi az adatbázis kapcsolódást
+
+--sajatom--
