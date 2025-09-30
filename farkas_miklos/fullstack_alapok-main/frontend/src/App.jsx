@@ -218,6 +218,7 @@ function App() {
     );
 } 
 
+<<<<<<< HEAD
 // Stílusdefiníciók
 const tableHeaderStyle = { border: '1px solid #ccc', padding: '10px', backgroundColor: '#f0f0f0' };
 const tableCellStyle = { border: '1px solid #ccc', padding: '10px', textAlign: 'left' };
@@ -226,5 +227,7 @@ const saveButtonStyle = { padding: '5px', backgroundColor: '#4CAF50', color: 'wh
 const cancelButtonStyle = { padding: '5px', backgroundColor: '#9E9E9E', color: 'white', border: 'none', cursor: 'pointer' };
 const editButtonStyle = { padding: '5px', backgroundColor: '#2196F3', color: 'white', border: 'none', cursor: 'pointer', marginRight: '5px' };
 const deleteButtonStyle = { padding: '5px', backgroundColor: '#F44336', color: 'white', border: 'none', cursor: 'pointer' };
+=======
+>>>>>>> bc1303d717c47304d14b94d3ad5e5de6ef25aa12
 
 export default App;
