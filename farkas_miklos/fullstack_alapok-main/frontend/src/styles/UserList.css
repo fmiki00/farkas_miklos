@@ -1,0 +1,55 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+td.center {
+  text-align: center;
+}
+
+button.save {
+  padding: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button.cancel {
+  padding: 5px;
+  background-color: #9E9E9E;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.edit {
+  padding: 5px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button.delete {
+  padding: 5px;
+  background-color: #F44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
